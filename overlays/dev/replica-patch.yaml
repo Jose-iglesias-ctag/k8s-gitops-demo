@@ -1,6 +1,13 @@
+
 apiVersion: apps/v1
+
 kind: Deployment
+
 metadata:
+
   name: webapp
+
 spec:
-  replicas: 1  # Dev uses fewer replicas for resource efficiency
+
+  replicas: 2  # Scale up dev environment
+
